@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/hugoto/mslearn-store-data-in-azure/store-app-data-with-azure-blob-storage/src/start/FileUploader.csproj": {}
+  },
+  "projects": {
+    "/Users/hugoto/mslearn-store-data-in-azure/store-app-data-with-azure-blob-storage/src/start/FileUploader.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hugoto/mslearn-store-data-in-azure/store-app-data-with-azure-blob-storage/src/start/FileUploader.csproj",
+        "projectName": "FileUploader",
+        "projectPath": "/Users/hugoto/mslearn-store-data-in-azure/store-app-data-with-azure-blob-storage/src/start/FileUploader.csproj",
+        "packagesPath": "/Users/hugoto/.nuget/packages/",
+        "outputPath": "/Users/hugoto/mslearn-store-data-in-azure/store-app-data-with-azure-blob-storage/src/start/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hugoto/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
